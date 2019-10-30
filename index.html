@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Art</title>
+    <meta name="description" content="This is the description" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-------Header-------->
+    <header class="header">
+      <nav class="main-nav nav"></nav>
+      <h1 class="title-name title-name-large">ART</h1>
+    </header>
+
+    <!---------------Section1-------------------------------------------->
+    <section class="container section">
+      <h2 class="section-header">Shop Original Art</h2>
+      <!------shopItems------->
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="item-title">Art 1</span>
+          <img class="item-image" src="images/art3.jpg" />
+          <div class="item-details">
+            <span class="item-price">$20.99</span>
+            <button class="btn btn-primary add-to-bag-button" type="button">
+              ADD TO BAG
+            </button>
+          </div>
+        </div>
+    </section>
+
+    <!---------------------section2------------------------------------------>
+    <section class="container section">
+      <h2 class="section-header">sale</h2>
+      <!-------shopItems------>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="item-title">Art 4</span>
+          <img class="item-image" src="images/art4.jpg" />
+          <div class="item-details">
+            <span class="item-price">$24.99</span>
+            <button class="btn btn-primary add-to-bag-button" type="button">
+              ADD TO BAG
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <!---------------------Section3-------------------------------------------->
+    <section class="container section">
+      <h2 class="section-header">Shopping Bag</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items">
+       <!--append here-->
+      </div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="btn btn-primary btn-checkout" type="button">
+       CHECK OUT
+      </button>
+    </section>
+
+
+
+    <script src="main.js"></script>
+   
+  </body>
+</html>
