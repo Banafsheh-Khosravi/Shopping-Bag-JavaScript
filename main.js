@@ -11,6 +11,7 @@ function addTobagClicked(event) {
   var title = item.querySelectorAll(".item-title")[0].innerText;
   var price = item.querySelectorAll(".item-price")[0].innerText;
   var image = item.querySelectorAll(".item-image")[0].src;
+
   addItemToBag(title, price, image); //***
   updateTotal();
 }
@@ -93,9 +94,8 @@ function updateTotal() {
 }
 
 //------------------------check out---------------------------------
-document
-  .querySelectorAll(".btn-checkout")[0] // we want to get the first button
-  .addEventListener("click", checkoutClicked);
+document.querySelectorAll(".btn-checkout")[0]; // we want to get the first button
+document.addEventListener("click", checkoutClicked);
 
 function checkoutClicked() {
   alert("Thank you for your shopping");
