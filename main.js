@@ -33,8 +33,8 @@ for (i = 0; i < addTobag.length; i++) {
 }
 
 function addTobagClicked(event) {
-  var button = event.target;
-  var item = button.parentElement.parentElement;
+  var button = event.target; // The target property returns the element that triggered the event.
+  var item = button.parentElement.parentElement; //The parentElement property returns the parent element of the specified element
   var title = item.querySelectorAll(".item-title")[0].innerText;
   var price = item.querySelectorAll(".item-price")[0].innerText;
   var image = item.querySelectorAll(".item-image")[0].src;
